@@ -4,8 +4,8 @@ const {
 const mime = require("mime-types");
 
 module.exports = {
-    name: "videydl",
-    aliases: ["videy"],
+    name: "bladl",
+    aliases: ["ea"],
     category: "downloader",
     permissions: {
         premium: true

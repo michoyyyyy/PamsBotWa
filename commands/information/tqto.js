@@ -10,7 +10,7 @@ module.exports = {
     code: async (ctx) => {
         return await ctx.reply(
             `${quote("Allah SWT")}\n` +
-            `${quote("ItsReimau (https://github.com/itsreimau)")}\n` +
+            `${quote("Fahmi (https://github.com/michoyyyyy)")}\n` +
             `${quote("Serv00 (https://serv00.com/)")}\n` +
             `${quote("JastinXyz (https://github.com/JastinXyz)")}\n` +
             `${quote("Idul (https://github.com/aidulcandra)")}\n` +

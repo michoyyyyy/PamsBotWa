@@ -13,39 +13,20 @@ const {
 global.config = {
     // Informasi bot dasar
     bot: {
-        name: "CKPTW", // Nama bot
-        prefix: /^[°•π÷×¶∆£¢€¥®™+✓_=|/~!?@#%^&.©^]/i, // Karakter awalan perintah yang diizinkan
+        name: "SigmaBot", // Nama bot
+        prefix: /^[!.]/i, // Karakter awalan perintah yang diizinkan
         phoneNumber: "", // Nomor telepon bot (opsional jika menggunakan QR code)
-        thumbnail: "https://itsreimau.is-a.dev/umbrx/dist/img/thumbnail/umbrx.jpg", // Gambar thumbnail bot
-        website: "https://chat.whatsapp.com/FxEYZl2UyzAEI2yhaH34Ye", // Website untuk WhatsApp bot
+        thumbnail: "https://cdn.discordapp.com/attachments/1199614469081419916/1337787979334287432/pinteg_djka.png", // Gambar thumbnail bot
+        website: "https://chat.whatsapp.com/KrD2jXpRazN11yU8U7mnBc", // Website untuk WhatsApp bot
         groupJid: "", // JID untuk group bot (opsional jika tidak menggunakan requireBotGroupMembership)
 
         // Konfigurasi autentikasi sesi bot
         authAdapter: {
-            adapter: "default", // Pilihan adapter: 'default', 'mysql', 'mongo', 'firebase'
-
-            // Konfigurasi default
-            default: {
-                authDir: "state"
-            },
-
-            // Konfigurasi MySQL
-            mysql: {
-                host: "localhost:3306", // Nama host 
-                user: "root", // Nama pengguna
-                password: "admin123", // Kata sandi
-                database: "ckptw-wabot" // Nama database
-            },
+            adapter: "mongo", // Pilihan adapter: 'default', 'mysql', 'mongo', 'firebase'
 
             // Konfigurasi MongoDB
             mongodb: {
-                url: "mongodb://localhost:27017/ckptw-wabot" // URL
-            },
-
-            // Konfigurasi Firebase
-            firebase: {
-                tableName: "ckptw-wabot", // Nama tabel
-                session: "state" // Nama sesi
+                url: "mongodb+srv://sappstoreee:0mZAFa316eEhqyDP@pamswa.qnw8v.mongodb.net/?retryWrites=true&w=majority&appName=PamsWa" // URL
             }
         }
     },
@@ -64,10 +45,10 @@ global.config = {
         private: quote("⛔ Perintah hanya dapat diakses dalam obrolan pribadi!"), // Pesan untuk perintah obrolan pribadi
         restrict: quote("⛔ Perintah ini telah dibatasi karena alasan keamanan!"), // Pesan pembatasan perintah
 
-        watermark: `@${pkgName} / v${version}`, // Watermark nama dan versi pada bot
-        footer: italic("Developed by ItsReimau"), // Footer di pesan bot
+        watermark: `@Fahmi © 2022-2025 / v${version}`, // Watermark nama dan versi pada bot
+        footer: italic("Developed by Fahmi"), // Footer di pesan bot
         readmore: "\u200E".repeat(4001), // String read more
-        note: "“Lorem ipsum dolor sit amet, tenebris in umbra, vitae ad mortem.”", // Catatan
+        note: "SEMUANYA DIAMMM!!!!", // Catatan
 
         wait: quote("🔄 Tunggu sebentar..."), // Pesan loading
         notFound: quote("❎ Tidak ada yang ditemukan! Coba lagi nanti."), // Pesan item tidak ditemukan
@@ -76,10 +57,10 @@ global.config = {
 
     // Informasi owner bot
     owner: {
-        name: "", // Nama owner bot
-        organization: "", // Nama organisasi owner bot
-        id: "", // Nomor telepon owner bot
-        co: [""] // Nomor co-owner bot
+        name: "Fahmii", // Nama owner bot
+        organization: "PamsBrot", // Nama organisasi owner bot
+        id: "6285174323610", // Nomor telepon owner bot
+        co: ["6285155390800"] // Nomor co-owner bot
     },
 
     // Stiker bot
@@ -95,14 +76,14 @@ global.config = {
         autoRead: true, // Bot baca pesan otomatis
         autoTypingOnCmd: true, // Tampilkan status "sedang mengetik" saat memproses perintah
         cooldown: 10 * 1000, // Jeda antar perintah (ms)
-        port: 3000, // Port (jika pakai server)
+        port: 3030, // Port (jika pakai server)
         restrict: false, // Batasi akses perintah
         requireBotGroupMembership: false, // Harus gabung grup bot
         selfOwner: false, // Bot jadi owner sendiri
         selfReply: true, // Bot balas pesan bot sendiri
         timeZone: "Asia/Jakarta", // Zona waktu bot
-        useCoin: true, // Pakai koin
+        useCoin: false, // Pakai koin
         usePairingCode: false, // Pakai kode pairing untuk koneksi
-        useServer: false // Jalankan bot dengan server
+        useServer: true // Jalankan bot dengan server
     }
 };

@@ -6,7 +6,7 @@ const axios = require("axios");
 
 module.exports = {
     name: "spotifysearch",
-    aliases: ["spotify", "spotifys"],
+    aliases: ["spotifysc", "spotifys"],
     category: "search",
     permissions: {
         coin: 10

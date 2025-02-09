@@ -24,11 +24,11 @@ module.exports = {
                 .replace(/%watermark%/g, config.msg.watermark)
                 .replace(/%footer%/g, config.msg.footer)
                 .replace(/%readmore%/g, config.msg.readmore) :
-                `${quote("083838039693 (DANA)")}\n` +
+                `${quote("085174323610 (DANA)")}\n` +
                 `${quote("─────")}\n` +
-                `${quote("https://paypal.me/itsreimau (PayPal)")}\n` +
-                `${quote("https://saweria.co/itsreimau (Saweria)")}\n` +
-                `${quote("https://trakteer.id/itsreimau (Trakteer)")}\n` +
+                `${quote("https://paypal.me/FahmiAhmad893 (PayPal)")}\n` +
+                `${quote("https://saweria.co/fahmichiee (Saweria)")}\n` +
+                `${quote("─────")}\n` +
                 "\n" +
                 config.msg.footer;
 

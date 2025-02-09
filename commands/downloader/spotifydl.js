@@ -5,7 +5,7 @@ const mime = require("mime-types");
 
 module.exports = {
     name: "spotifydl",
-    aliases: ["spotidl"],
+    aliases: ["spotify"],
     category: "downloader",
     permissions: {
         coin: 10
